@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSEG.StockMarketAnalyst.DataSampler", "src\LSEG.StockMarketAnalyst.DataSampler\LSEG.StockMarketAnalyst.DataSampler.csproj", "{32D96F6A-6890-4F2C-A73C-2A591F7DAB47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSEG.StockMarketAnalyst.OutlierDetector", "src\LSEG.StockMarketAnalyst.OutlierDetector\LSEG.StockMarketAnalyst.OutlierDetector.csproj", "{8BD81D25-0B28-4AB7-A5CF-0EF5362A067F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32D96F6A-6890-4F2C-A73C-2A591F7DAB47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D96F6A-6890-4F2C-A73C-2A591F7DAB47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D96F6A-6890-4F2C-A73C-2A591F7DAB47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D96F6A-6890-4F2C-A73C-2A591F7DAB47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD81D25-0B28-4AB7-A5CF-0EF5362A067F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD81D25-0B28-4AB7-A5CF-0EF5362A067F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD81D25-0B28-4AB7-A5CF-0EF5362A067F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD81D25-0B28-4AB7-A5CF-0EF5362A067F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01894D6B-C2EB-4418-B6AF-336642B85AFB}
+	EndGlobalSection
+EndGlobal

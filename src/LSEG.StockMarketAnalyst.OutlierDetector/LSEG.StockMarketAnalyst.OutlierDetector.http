@@ -1,0 +1,6 @@
+@LSEG.StockMarketAnalyst.OutlierDetector_HostAddress = http://localhost:5097
+
+GET {{LSEG.StockMarketAnalyst.OutlierDetector_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
