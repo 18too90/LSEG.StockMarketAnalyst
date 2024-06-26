@@ -1,0 +1,25 @@
+version: '3.4'
+
+services:
+  lseg.stockmarketanalyst.datasampler:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=5051
+      - ASPNETCORE_HTTPS_PORTS=5052
+    ports:
+      - "5051"
+      - "5052"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
+  lseg.stockmarketanalyst.outlierdetector:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=5053
+      - ASPNETCORE_HTTPS_PORTS=5054
+    ports:
+      - "5053"
+      - "5054"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSEG.StockMarketAnalyst.Dat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSEG.StockMarketAnalyst.OutlierDetector", "src\LSEG.StockMarketAnalyst.OutlierDetector\LSEG.StockMarketAnalyst.OutlierDetector.csproj", "{8BD81D25-0B28-4AB7-A5CF-0EF5362A067F}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{31185761-5502-4EF8-9D1F-ADDE5BE70063}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSEG.StockMarketAnalyst.Domain", "src\LSEG.StockMarketAnalyst.Domain\LSEG.StockMarketAnalyst.Domain.csproj", "{83513B62-3789-4C9C-85F7-D74A26506450}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{8BD81D25-0B28-4AB7-A5CF-0EF5362A067F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BD81D25-0B28-4AB7-A5CF-0EF5362A067F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BD81D25-0B28-4AB7-A5CF-0EF5362A067F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31185761-5502-4EF8-9D1F-ADDE5BE70063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31185761-5502-4EF8-9D1F-ADDE5BE70063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31185761-5502-4EF8-9D1F-ADDE5BE70063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31185761-5502-4EF8-9D1F-ADDE5BE70063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83513B62-3789-4C9C-85F7-D74A26506450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83513B62-3789-4C9C-85F7-D74A26506450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83513B62-3789-4C9C-85F7-D74A26506450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83513B62-3789-4C9C-85F7-D74A26506450}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

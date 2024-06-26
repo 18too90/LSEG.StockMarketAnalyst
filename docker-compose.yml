@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  lseg.stockmarketanalyst.datasampler:
+    image: ${DOCKER_REGISTRY-}lsegstockmarketanalystdatasampler
+    build:
+      context: .
+      dockerfile: src/LSEG.StockMarketAnalyst.DataSampler/Dockerfile
+
+  lseg.stockmarketanalyst.outlierdetector:
+    image: ${DOCKER_REGISTRY-}lsegstockmarketanalystoutlierdetector
+    build:
+      context: .
+      dockerfile: src/LSEG.StockMarketAnalyst.OutlierDetector/Dockerfile
+
