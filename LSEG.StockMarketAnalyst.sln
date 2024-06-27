@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSEG.StockMarketAnalyst.DataSampler", "src\LSEG.StockMarketAnalyst.DataSampler\LSEG.StockMarketAnalyst.DataSampler.csproj", "{32D96F6A-6890-4F2C-A73C-2A591F7DAB47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSEG.StockMarketAnalyst.DataSampler", "src\LSEG.StockMarketAnalyst.DataSampler\LSEG.StockMarketAnalyst.DataSampler.csproj", "{32D96F6A-6890-4F2C-A73C-2A591F7DAB47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSEG.StockMarketAnalyst.OutlierDetector", "src\LSEG.StockMarketAnalyst.OutlierDetector\LSEG.StockMarketAnalyst.OutlierDetector.csproj", "{8BD81D25-0B28-4AB7-A5CF-0EF5362A067F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSEG.StockMarketAnalyst.OutlierDetector", "src\LSEG.StockMarketAnalyst.OutlierDetector\LSEG.StockMarketAnalyst.OutlierDetector.csproj", "{8BD81D25-0B28-4AB7-A5CF-0EF5362A067F}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{31185761-5502-4EF8-9D1F-ADDE5BE70063}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSEG.StockMarketAnalyst.Domain", "src\LSEG.StockMarketAnalyst.Domain\LSEG.StockMarketAnalyst.Domain.csproj", "{83513B62-3789-4C9C-85F7-D74A26506450}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSEG.StockMarketAnalyst.Domain", "src\LSEG.StockMarketAnalyst.Domain\LSEG.StockMarketAnalyst.Domain.csproj", "{83513B62-3789-4C9C-85F7-D74A26506450}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6C78803A-4393-451A-AB8A-3ABC8115E47E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +25,14 @@ Global
 		{8BD81D25-0B28-4AB7-A5CF-0EF5362A067F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BD81D25-0B28-4AB7-A5CF-0EF5362A067F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BD81D25-0B28-4AB7-A5CF-0EF5362A067F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{31185761-5502-4EF8-9D1F-ADDE5BE70063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{31185761-5502-4EF8-9D1F-ADDE5BE70063}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{31185761-5502-4EF8-9D1F-ADDE5BE70063}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{31185761-5502-4EF8-9D1F-ADDE5BE70063}.Release|Any CPU.Build.0 = Release|Any CPU
 		{83513B62-3789-4C9C-85F7-D74A26506450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{83513B62-3789-4C9C-85F7-D74A26506450}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83513B62-3789-4C9C-85F7-D74A26506450}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83513B62-3789-4C9C-85F7-D74A26506450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C78803A-4393-451A-AB8A-3ABC8115E47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C78803A-4393-451A-AB8A-3ABC8115E47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C78803A-4393-451A-AB8A-3ABC8115E47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C78803A-4393-451A-AB8A-3ABC8115E47E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

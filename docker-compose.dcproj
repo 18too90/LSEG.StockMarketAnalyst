@@ -4,7 +4,7 @@
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
     <DockerPublishLocally>False</DockerPublishLocally>
-    <ProjectGuid>31185761-5502-4ef8-9d1f-adde5be70063</ProjectGuid>
+    <ProjectGuid>6c78803a-4393-451a-ab8a-3abc8115e47e</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/swagger</DockerServiceUrl>
     <DockerServiceName>lseg.stockmarketanalyst.datasampler</DockerServiceName>

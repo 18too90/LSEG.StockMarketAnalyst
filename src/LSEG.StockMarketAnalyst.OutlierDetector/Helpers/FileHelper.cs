@@ -9,20 +9,20 @@ namespace LSEG.StockMarketAnalyst.OutlierDetector.Helpers
     public class FileHelper : IFileHelper
     {
         private readonly ILogger<FileHelper> _logger;
+        private readonly string _directoryPath;
 
-        public FileHelper(ILogger<FileHelper> logger)
+        public FileHelper(ILogger<FileHelper> logger, IConfiguration configuration)
         {
                 _logger = logger;
+            _directoryPath = configuration["DataSetFolder"]?? string.Empty;
         }
-
-        private readonly string DirectoryPath = "../../data";
 
         public void WriteFiles(KeyValuePair<string, List<StockPrice>> outliers)
         {
             var folderName = outliers.Key.Split("_")[0];
             var fileName = outliers.Key.Split("_")[1] + "_Outliers.csv";
 
-            var filePath = Path.Combine(DirectoryPath, folderName + '/' + fileName);
+            var filePath = Path.Combine(_directoryPath, folderName + '/' + fileName);
             try
             {
                 using (var writer = new StreamWriter(filePath))
